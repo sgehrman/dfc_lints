@@ -54,7 +54,7 @@ linter:
     no_runtimeType_toString: true
     noop_primitive_operations: true
     null_check_on_nullable_type_parameter: true
-    # omit_local_variable_types: true
+    omit_local_variable_types: true
     # one_member_abstracts: true
     only_throw_errors: true
     parameter_assignments: true
@@ -81,6 +81,7 @@ linter:
     use_setters_to_change_properties: true
     use_string_buffers: true
     use_to_and_as_if_applicable: true
+    sort_pub_dependencies: true
 
     # turn off
     avoid_print: false
@@ -90,7 +91,6 @@ linter:
     # avoid_classes_with_only_static_members: false
     # avoid_setters_without_getters: false
     # avoid_function_literals_in_foreach_calls: false
-    # sort_pub_dependencies: false
 
 analyzer:
   exclude:
