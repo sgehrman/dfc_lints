@@ -54,7 +54,7 @@ linter:
     no_runtimeType_toString: true
     noop_primitive_operations: true
     null_check_on_nullable_type_parameter: true
-    omit_local_variable_types: true
+    # omit_local_variable_types: true
     # one_member_abstracts: true
     only_throw_errors: true
     parameter_assignments: true
@@ -63,7 +63,7 @@ linter:
     prefer_constructors_over_static_methods: true
     prefer_final_in_for_each: true
     # prefer_if_elements_to_conditional_expressions: true
-    # prefer_int_literals: true
+    prefer_int_literals: true
     prefer_interpolation_to_compose_strings: true
     prefer_null_aware_method_calls: true
     test_types_in_equals: true
