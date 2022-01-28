@@ -4,6 +4,3 @@ version: 1.0.6
 
 environment:
   sdk: ">=2.15.0 <3.0.0"
-
-dependencies:
-  flutter_lints: ^1.0.4
