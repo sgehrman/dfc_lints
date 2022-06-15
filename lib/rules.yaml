@@ -241,3 +241,49 @@ dart_code_metrics:
     #     order:
     #       - constructors
     #       - public_fields
+    - always-remove-listener
+    - avoid-border-all
+    # - avoid-returning-widgets
+    - avoid-unnecessary-setstate
+    - avoid-wrapping-in-padding
+    - prefer-const-border-radius
+    # - prefer-extracting-callbacks
+    # - prefer-single-widget-per-file
+    - prefer-match-file-name
+    - tag-name
+    - prefer-last
+    - prefer-first
+    - prefer-immediate-return
+    - prefer-correct-type-name
+    - prefer-correct-identifier-length
+    - prefer-conditional-expressions
+    - prefer-commenting-analyzer-ignores
+    - prefer-async-await
+    - no-object-declaration
+    - no-magic-number
+    - no-equal-arguments
+    - no-empty-block
+    - no-boolean-literal-compare
+    - newline-before-return
+    # - member-ordering-extended
+    - format-comment
+    - double-literal-format
+    - binary-expression-operand-order
+    # - ban-name
+    #     entries:
+    #       - ident: showDialog
+    #         description: Please use myShowDialog in this package
+    - avoid-unused-parameters
+    - avoid-unrelated-type-assertions
+    - avoid-unnecessary-type-casts
+    - avoid-unnecessary-type-assertions
+    - avoid-throw-in-catch-block
+    - avoid-non-null-assertion
+    - avoid-non-ascii-symbols
+    - avoid-nested-conditional-expressions
+    - avoid-missing-enum-constant-in-map
+    # - avoid-late-keyword
+    - avoid-ignoring-return-values
+    - avoid-global-state
+    # - avoid-dynamic
+    - avoid-collection-methods-with-unrelated-types
