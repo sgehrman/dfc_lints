@@ -223,7 +223,7 @@ dart_code_metrics:
   metrics:
     cyclomatic-complexity: 20
     maximum-nesting-level: 5
-    number-of-parameters: 4
+    number-of-parameters: 6
     source-lines-of-code: 200
   metrics-exclude:
     - test/**
@@ -243,7 +243,7 @@ dart_code_metrics:
     # - avoid-returning-widgets
     - avoid-unnecessary-setstate
     - avoid-wrapping-in-padding
-    - prefer-const-border-radius
+    # - prefer-const-border-radius
     # - prefer-extracting-callbacks
     # - prefer-single-widget-per-file
     # - prefer-match-file-name
@@ -254,7 +254,7 @@ dart_code_metrics:
     - prefer-correct-type-name
     # - prefer-correct-identifier-length
     # - prefer-conditional-expressions
-    - prefer-commenting-analyzer-ignores
+    # - prefer-commenting-analyzer-ignores
     - prefer-async-await
     - no-object-declaration
     # - no-magic-number
