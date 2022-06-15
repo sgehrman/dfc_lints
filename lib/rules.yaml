@@ -259,8 +259,8 @@ dart_code_metrics:
     - prefer-commenting-analyzer-ignores
     - prefer-async-await
     - no-object-declaration
-    - no-magic-number
-    - no-equal-arguments
+    # - no-magic-number
+    # - no-equal-arguments
     - no-empty-block
     - no-boolean-literal-compare
     - newline-before-return
