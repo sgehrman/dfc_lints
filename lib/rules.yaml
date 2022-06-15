@@ -265,7 +265,7 @@ dart_code_metrics:
     # - member-ordering-extended
     # - format-comment
     - double-literal-format
-    - binary-expression-operand-order
+    # - binary-expression-operand-order
     # - ban-name
     #     entries:
     #       - ident: showDialog
