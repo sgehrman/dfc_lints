@@ -283,6 +283,6 @@ dart_code_metrics:
     - avoid-missing-enum-constant-in-map
     # - avoid-late-keyword
     # - avoid-ignoring-return-values
-    - avoid-global-state
+    # - avoid-global-state
     # - avoid-dynamic
     - avoid-collection-methods-with-unrelated-types
