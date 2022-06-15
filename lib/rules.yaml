@@ -276,7 +276,7 @@ dart_code_metrics:
     - avoid-unnecessary-type-assertions
     - avoid-throw-in-catch-block
     # - avoid-non-null-assertion
-    - avoid-non-ascii-symbols
+    # - avoid-non-ascii-symbols
     # - avoid-nested-conditional-expressions
     - avoid-missing-enum-constant-in-map
     # - avoid-late-keyword
