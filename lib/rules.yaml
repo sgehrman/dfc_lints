@@ -203,7 +203,6 @@ linter:
 
 analyzer:
   plugins:
-    # https://dartcodemetrics.dev/docs/getting-started/installation
     - dart_code_metrics
 
   exclude:
