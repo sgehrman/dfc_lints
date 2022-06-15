@@ -272,7 +272,7 @@ dart_code_metrics:
     #     entries:
     #       - ident: showDialog
     #         description: Please use myShowDialog in this package
-    - avoid-unused-parameters
+    # - avoid-unused-parameters
     - avoid-unrelated-type-assertions
     - avoid-unnecessary-type-casts
     - avoid-unnecessary-type-assertions
