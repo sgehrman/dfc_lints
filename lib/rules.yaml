@@ -261,7 +261,7 @@ dart_code_metrics:
     - no-object-declaration
     # - no-magic-number
     # - no-equal-arguments
-    - no-empty-block
+    # - no-empty-block
     - no-boolean-literal-compare
     - newline-before-return
     # - member-ordering-extended
