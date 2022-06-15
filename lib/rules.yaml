@@ -233,7 +233,6 @@ dart_code_metrics:
     - no-boolean-literal-compare
     - no-empty-block
     - prefer-trailing-comma
-    # - prefer-conditional-expressions
     - no-equal-then-else
     # - member-ordering:
     #     alphabetize: false
@@ -255,7 +254,7 @@ dart_code_metrics:
     - prefer-immediate-return
     - prefer-correct-type-name
     # - prefer-correct-identifier-length
-    - prefer-conditional-expressions
+    # - prefer-conditional-expressions
     - prefer-commenting-analyzer-ignores
     - prefer-async-await
     - no-object-declaration
