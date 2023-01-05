@@ -212,9 +212,6 @@ analyzer:
     strict-casts: true
     strict-raw-types: true
 
-  strong-mode:
-    implicit-casts: false
-
 # https://dartcodemetrics.dev/docs/getting-started/installation
 dart_code_metrics:
   anti-patterns:
