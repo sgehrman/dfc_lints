@@ -230,6 +230,15 @@ dart_code_metrics:
     - no-boolean-literal-compare
     - prefer-trailing-comma
     - no-equal-then-else
+    - avoid-double-slash-imports
+    - prefer-using-list-view
+    - avoid-shrink-wrap-in-lists
+    - use-setstate-synchronously
+    - avoid-expanded-as-spacer
+    - check-for-equals-in-render-object-setters
+    - consistent-update-render-object
+    - prefer-correct-edge-insets-constructor
+    - avoid-duplicate-exports
     # - member-ordering:
     #     alphabetize: false
     #     order:
@@ -240,7 +249,7 @@ dart_code_metrics:
     # - avoid-returning-widgets
     - avoid-unnecessary-setstate
     - avoid-wrapping-in-padding
-    # - prefer-const-border-radius
+    - prefer-const-border-radius
     # - prefer-extracting-callbacks
     # - prefer-single-widget-per-file
     # - prefer-match-file-name
@@ -255,7 +264,7 @@ dart_code_metrics:
     - prefer-async-await
     - no-object-declaration
     # - no-magic-number
-    # - no-equal-arguments
+    - no-equal-arguments
     # - no-empty-block
     - no-boolean-literal-compare
     - newline-before-return
@@ -281,3 +290,7 @@ dart_code_metrics:
     # - avoid-global-state
     # - avoid-dynamic
     - avoid-collection-methods-with-unrelated-types
+    - avoid-passing-async-when-sync-expected
+    - avoid-redundant-async
+    - avoid-unnecessary-conditionals
+    - prefer-static-class
