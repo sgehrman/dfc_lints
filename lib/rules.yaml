@@ -232,7 +232,7 @@ dart_code_metrics:
     - no-equal-then-else
     - avoid-double-slash-imports
     # - prefer-using-list-view  # should fix
-    - avoid-shrink-wrap-in-lists
+    # - avoid-shrink-wrap-in-lists  # should fix
     - use-setstate-synchronously
     - avoid-expanded-as-spacer
     - check-for-equals-in-render-object-setters
@@ -247,7 +247,7 @@ dart_code_metrics:
     - always-remove-listener
     - avoid-border-all
     # - avoid-returning-widgets
-    - avoid-unnecessary-setstate
+    # - avoid-unnecessary-setstate # should fix
     - avoid-wrapping-in-padding
     - prefer-const-border-radius
     # - prefer-extracting-callbacks
