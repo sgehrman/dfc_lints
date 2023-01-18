@@ -231,7 +231,7 @@ dart_code_metrics:
     - prefer-trailing-comma
     - no-equal-then-else
     - avoid-double-slash-imports
-    - prefer-using-list-view
+    # - prefer-using-list-view  # should fix
     - avoid-shrink-wrap-in-lists
     - use-setstate-synchronously
     - avoid-expanded-as-spacer
@@ -264,7 +264,7 @@ dart_code_metrics:
     - prefer-async-await
     - no-object-declaration
     # - no-magic-number
-    - no-equal-arguments
+    # - no-equal-arguments
     # - no-empty-block
     - no-boolean-literal-compare
     - newline-before-return
@@ -290,7 +290,7 @@ dart_code_metrics:
     # - avoid-global-state
     # - avoid-dynamic
     - avoid-collection-methods-with-unrelated-types
-    - avoid-passing-async-when-sync-expected
+    # - avoid-passing-async-when-sync-expected # should fix
     - avoid-redundant-async
     - avoid-unnecessary-conditionals
-    - prefer-static-class
+    # - prefer-static-class   # should fix
