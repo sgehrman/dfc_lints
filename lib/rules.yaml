@@ -236,7 +236,7 @@ dart_code_metrics:
     - use-setstate-synchronously
     - avoid-expanded-as-spacer
     - check-for-equals-in-render-object-setters
-    - consistent-update-render-object
+    # - consistent-update-render-object  # dfc_flutter has this issue, couldn't figure out
     - prefer-correct-edge-insets-constructor
     - avoid-duplicate-exports
     # - member-ordering:
