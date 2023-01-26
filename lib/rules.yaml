@@ -167,6 +167,7 @@ linter:
     - use_decorated_box
     - sized_box_shrink_expand
     - conditional_uri_does_not_exist
+    - discarded_futures
     # - use_key_in_widget_constructors  - turned off
     # - use_build_context_synchronously  - turned off
     # - unnecessary_lambdas  - turned off
