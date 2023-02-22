@@ -169,13 +169,13 @@ linter:
     - conditional_uri_does_not_exist
     # - discarded_futures
     # - use_key_in_widget_constructors  - turned off
-    # - use_build_context_synchronously  - turned off
+    - use_build_context_synchronously
     # - unnecessary_lambdas  - turned off
     # - unnecessary_final  - turned off
     # - sort_constructors_first  - turned off
     # - slash_for_doc_comments
     # - secure_pubspec_urls
-    # - public_member_api_docs  - turned off
+    - public_member_api_docs
     # - prefer_relative_imports  - turned off
     # - prefer_if_elements_to_conditional_expressions  - turned off
     # - prefer_mixin  - turned off
