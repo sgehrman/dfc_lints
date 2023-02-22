@@ -175,7 +175,7 @@ linter:
     # - sort_constructors_first  - turned off
     # - slash_for_doc_comments
     # - secure_pubspec_urls
-    - public_member_api_docs
+    # - public_member_api_docs
     # - prefer_relative_imports  - turned off
     # - prefer_if_elements_to_conditional_expressions  - turned off
     # - prefer_mixin  - turned off
@@ -184,7 +184,7 @@ linter:
     # - prefer_double_quotes   - turned off
     # - omit_local_variable_types
     # - no_default_cases  - turned off
-    # - library_private_types_in_public_api  - could fix ###
+    - library_private_types_in_public_api
     # - lines_longer_than_80_chars  - turned off
     # - comment_references
     # - do_not_use_environment  - turned off
