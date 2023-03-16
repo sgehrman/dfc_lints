@@ -261,10 +261,10 @@ dart_code_metrics:
     - avoid-unnecessary-conditionals
     - avoid-cascade-after-if-null
     - list-all-equatable-fields
-    - avoid-unnecessary-setstate
+    # - avoid-unnecessary-setstate
     - prefer-using-list-view
     - avoid-shrink-wrap-in-lists
-    - avoid-passing-async-when-sync-expected
+    # - avoid-passing-async-when-sync-expected
     - prefer-moving-to-variable
     - prefer-enums-by-name
     # - prefer-static-class   # should fix
