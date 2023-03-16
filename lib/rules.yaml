@@ -167,9 +167,10 @@ linter:
     - use_decorated_box
     - sized_box_shrink_expand
     - conditional_uri_does_not_exist
+    - use_build_context_synchronously
+    - library_private_types_in_public_api
     # - discarded_futures
     # - use_key_in_widget_constructors  - turned off
-    - use_build_context_synchronously
     # - unnecessary_lambdas  - turned off
     # - unnecessary_final  - turned off
     # - sort_constructors_first  - turned off
@@ -184,7 +185,6 @@ linter:
     # - prefer_double_quotes   - turned off
     # - omit_local_variable_types
     # - no_default_cases  - turned off
-    - library_private_types_in_public_api
     # - lines_longer_than_80_chars  - turned off
     # - comment_references
     # - do_not_use_environment  - turned off
@@ -259,10 +259,15 @@ dart_code_metrics:
     - avoid-collection-methods-with-unrelated-types
     - avoid-redundant-async
     - avoid-unnecessary-conditionals
+    - avoid-cascade-after-if-null
+    - list-all-equatable-fields
+    - avoid-unnecessary-setstate
+    - prefer-using-list-view
+    - avoid-shrink-wrap-in-lists
+    - avoid-passing-async-when-sync-expected
+    - prefer-moving-to-variable
+    - prefer-enums-by-name
     # - prefer-static-class   # should fix
-    # - prefer-using-list-view  # should fix
-    # - avoid-shrink-wrap-in-lists  # should fix
-    # - avoid-passing-async-when-sync-expected # should fix
     # - avoid-late-keyword
     # - avoid-ignoring-return-values
     # - avoid-global-state
@@ -287,8 +292,7 @@ dart_code_metrics:
     # - prefer-extracting-callbacks
     # - prefer-single-widget-per-file
     # - prefer-match-file-name
-    - avoid-returning-widgets
-    # - avoid-unnecessary-setstate # should fix
+    # - avoid-returning-widgets
     # - member-ordering:
     #     alphabetize: false
     #     order:
