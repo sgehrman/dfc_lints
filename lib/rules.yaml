@@ -265,7 +265,7 @@ dart_code_metrics:
     - prefer-using-list-view
     - avoid-shrink-wrap-in-lists
     # - avoid-passing-async-when-sync-expected
-    - prefer-moving-to-variable
+    # - prefer-moving-to-variable
     - prefer-enums-by-name
     # - prefer-static-class   # should fix
     # - avoid-late-keyword
