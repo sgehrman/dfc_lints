@@ -204,6 +204,8 @@ linter:
 analyzer:
   plugins:
     - dart_code_metrics
+  enable-experiment:
+    - records
 
   exclude:
     - lib/generated_plugin_registrant.dart
