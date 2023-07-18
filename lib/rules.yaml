@@ -261,7 +261,7 @@ dart_code_metrics:
     # - avoid-late-keyword
     # - avoid-long-functions
     # - avoid-long-parameter-list:
-        # max-amount: 6
+    # max-amount: 6
     # - avoid-long-records:
     #     max-amount: 6
     - avoid-missed-calls
@@ -381,10 +381,10 @@ dart_code_metrics:
     - always-remove-listener
     - avoid-border-all
     # - avoid-empty-setstate
-     - avoid-expanded-as-spacer
-     - avoid-incomplete-copy-with
-     - avoid-inherited-widget-in-initstate
-     - avoid-late-context
+    - avoid-expanded-as-spacer
+    - avoid-incomplete-copy-with
+    - avoid-inherited-widget-in-initstate
+    - avoid-late-context
     # - avoid-missing-image-alt
     # - avoid-returning-widgets
     - avoid-shrink-wrap-in-lists
@@ -408,6 +408,3 @@ dart_code_metrics:
     - prefer-widget-private-members
     - proper-super-calls
     - use-setstate-synchronously
-
-
-
