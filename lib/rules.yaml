@@ -227,75 +227,188 @@ dart_code_metrics:
     - test/**
     - example/test/**
   rules:
-    - newline-before-return
-    - no-boolean-literal-compare
-    - prefer-trailing-comma
-    - no-equal-then-else
-    - avoid-double-slash-imports
-    - use-setstate-synchronously
-    - avoid-expanded-as-spacer
-    - check-for-equals-in-render-object-setters
-    - prefer-correct-edge-insets-constructor
-    - avoid-duplicate-exports
-    - always-remove-listener
-    - avoid-border-all
-    - avoid-wrapping-in-padding
-    - prefer-const-border-radius
-    - tag-name
-    - prefer-last
-    - prefer-first
-    - prefer-immediate-return
-    - prefer-correct-type-name
-    - prefer-async-await
-    - no-object-declaration
-    - no-boolean-literal-compare
-    - newline-before-return
-    - double-literal-format
-    - avoid-unrelated-type-assertions
-    - avoid-unnecessary-type-casts
-    - avoid-unnecessary-type-assertions
-    - avoid-throw-in-catch-block
-    - avoid-missing-enum-constant-in-map
-    - avoid-collection-methods-with-unrelated-types
-    - avoid-redundant-async
-    - avoid-unnecessary-conditionals
+    # provider rules
+    - avoid-read-inside-build
+    - avoid-instantiating-in-value-provider
+    - avoid-watch-outside-build
+    - dispose-providers
+    - prefer-multi-provider
+
+
+    # common
+    - arguments-ordering
+        child-last: true
+    - avoid-accessing-other-classes-private-members
     - avoid-cascade-after-if-null
-    - list-all-equatable-fields
-    # - avoid-unnecessary-setstate
-    - prefer-using-list-view
-    - avoid-shrink-wrap-in-lists
-    # - avoid-passing-async-when-sync-expected
-    # - prefer-moving-to-variable
-    - prefer-enums-by-name
-    # - prefer-static-class   # should fix
-    # - avoid-late-keyword
-    # - avoid-ignoring-return-values
-    # - avoid-global-state
+    # - avoid-collapsible-if
+    - avoid-collection-methods-with-unrelated-types
+    - avoid-declaring-call-method
+    - avoid-double-slash-imports
+    - avoid-duplicate-exports
+    - avoid-duplicate-named-imports
+    - avoid-duplicate-patterns
     # - avoid-dynamic
-    # - avoid-non-null-assertion
+    - avoid-equal-expressions
+    # - avoid-explicit-pattern-field-name
+    - avoid-explicit-type-declaration
+    - avoid-function-type-in-records
+    - avoid-future-tostring
+    - avoid-generics-shadowing
+    # - avoid-global-state
+    # - avoid-ignoring-return-values
+    - avoid-importing-entrypoint-exports
+    - avoid-inverted-boolean-checks
+    - avoid-keywords-in-wildcard-pattern
+    # - avoid-late-keyword
+    # - avoid-long-functions
+    # - avoid-long-parameter-list:
+        # max-amount: 6
+    # - avoid-long-records:
+    #     max-amount: 6
+    - avoid-missed-calls
+    - avoid-missing-enum-constant-in-map
+    - avoid-misused-wildcard-pattern
+    # - avoid-mixing-named-and-positional-fields
+    - avoid-mutating-parameters
+    - avoid-negated-conditions
+    - avoid-nested-conditional-expressions:
+        acceptable-level: 2
+    - avoid-nested-futures
+    - avoid-nested-records
+    # - avoid-nested-streams-and-futures
+    - avoid-nested-switch-expressions
+    - avoid-nested-switches
     # - avoid-non-ascii-symbols
-    # - avoid-nested-conditional-expressions
-    # - binary-expression-operand-order
-    # - ban-name
-    #     entries:
-    #       - ident: showDialog
-    #         description: Please use myShowDialog in this package
+    # - avoid-non-null-assertion
+    - avoid-one-field-records
+    # - avoid-passing-async-when-sync-expected
+    - avoid-positional-record-field-access
+    - avoid-redundant-async
+    - avoid-redundant-else
+    # - avoid-redundant-positional-field-name
+    - avoid-redundant-pragma-inline
+    - avoid-self-assignment
+    - avoid-self-compare
+    - avoid-shadowed-extension-methods
+    - avoid-shadowing
+    - avoid-similar-names
+    - avoid-substring
+    - avoid-throw-in-catch-block
+    - avoid-throw-objects-without-tostring
+    - avoid-top-level-members-in-tests
+    - avoid-unassigned-late-fields-keyword
+    - avoid-uncaught-future-errors
+    - avoid-unnecessary-call
+    - avoid-unnecessary-conditionals
+    - avoid-unnecessary-futures
+    - avoid-unnecessary-negations
+    - avoid-unnecessary-nullable-return-type
+    - avoid-unnecessary-return
+    - avoid-unnecessary-type-assertions
+    - avoid-unnecessary-type-casts
+    - avoid-unrelated-type-assertions
+    - avoid-unrelated-type-casts
+    - avoid-unsafe-collection-methods
+    - avoid-unused-generics
     # - avoid-unused-parameters
-    # - member-ordering-extended
+    # - binary-expression-operand-order
+    - double-literal-format
     # - format-comment
-    # - no-magic-number
-    # - no-equal-arguments
-    # - no-empty-block
-    # - prefer-correct-identifier-length
-    # - prefer-conditional-expressions
-    # - prefer-commenting-analyzer-ignores
-    # - prefer-extracting-callbacks
-    # - prefer-single-widget-per-file
-    # - prefer-match-file-name
-    # - avoid-returning-widgets
+    - function-always-returns-null
+    # - map-keys-ordering
     # - member-ordering:
     #     alphabetize: false
     #     order:
     #       - constructors
     #       - public_fields
+    - move-records-to-typedefs
+    - newline-before-return
+    - no-boolean-literal-compare
+    # - no-empty-block
+    # - no-equal-arguments
+    - no-equal-conditions
+    - no-equal-nested-conditions
+    - no-equal-switch-case
+    - no-equal-switch-expression-cases
+    - no-equal-then-else
+    # - no-magic-number
+    - no-object-declaration
+    - prefer-async-await
+    - prefer-bytes-builder
+    # - prefer-commenting-analyzer-ignores
+    # - prefer-conditional-expressions
+    - prefer-correct-error-name:
+        allowed-names:
+          - err
+    # - prefer-correct-future-return-type
+    # - prefer-correct-identifier-length
+    - prefer-correct-stream-return-type
+    # - prefer-correct-switch-length:
+    #     min-length: 5
+    #     max-length: 20
+    - prefer-correct-type-name
+    - prefer-declaring-const-constructor
+    # - prefer-early-return
+    - prefer-enums-by-name
+    - prefer-explicit-parameter-names
+    - prefer-last
+    - prefer-first
+    - prefer-immediate-return
+    - prefer-iterable-of
+    # - prefer-match-file-name
+    # - prefer-moving-to-variable
+    - prefer-parentheses-with-if-null
+    - prefer-return-await
+    - prefer-returning-conditional-expressions
+    - prefer-simpler-patterns-null-check
+    # - prefer-static-class   # should fix
+    - prefer-trailing-comma
+    - prefer-type-over-var
+    - prefer-unwrapping-future-or
+    - prefer-wildcard-pattern
+    - tag-name
+    - unnecessary-trailing-comma
+
+    # pubspec
+    - avoid-any-version
+    - prefer-caret-version-syntax
+    - prefer-publish-to-none
+    - prefer-semver-version
+
+    # equatable
+    - list-all-equatable-fields
+
+    # flutter
+    - always-remove-listener
+    - avoid-border-all
+    # - avoid-empty-setstate
+     - avoid-expanded-as-spacer
+     - avoid-incomplete-copy-with
+     - avoid-inherited-widget-in-initstate
+     - avoid-late-context
+    # - avoid-missing-image-alt
+    # - avoid-returning-widgets
+    - avoid-shrink-wrap-in-lists
+    - avoid-state-constructors
+    - avoid-stateless-widget-initialized-fields
+    - avoid-unnecessary-overrides-in-state
+    - avoid-unnecessary-setstate
+    - avoid-unnecessary-stateful-widgets
+    - avoid-wrapping-in-padding
+    - check-for-equals-in-render-object-setters
     # - consistent-update-render-object  # dfc_flutter has this issue, couldn't figure out
+    - dispose-fields
+    - prefer-action-button-tooltip
+    - prefer-const-border-radius
+    - prefer-correct-edge-insets-constructor
+    - prefer-dedicated-media-query-methods
+    # - prefer-define-hero-tag
+    # - prefer-extracting-callbacks
+    # - prefer-single-widget-per-file
+    - prefer-using-list-view
+    - prefer-widget-private-members
+    - proper-super-calls
+    - use-setstate-synchronously
+
+
+
