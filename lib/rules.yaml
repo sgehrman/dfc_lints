@@ -291,7 +291,7 @@ dart_code_metrics:
     - avoid-shadowed-extension-methods
     - avoid-shadowing
     - avoid-similar-names
-    - avoid-substring
+    # - avoid-substring
     - avoid-throw-in-catch-block
     - avoid-throw-objects-without-tostring
     - avoid-top-level-members-in-tests
