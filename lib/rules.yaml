@@ -234,9 +234,8 @@ dart_code_metrics:
     - dispose-providers
     - prefer-multi-provider
 
-
     # common
-    - arguments-ordering
+    - arguments-ordering:
         child-last: true
     - avoid-accessing-other-classes-private-members
     - avoid-cascade-after-if-null
