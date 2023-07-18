@@ -391,7 +391,7 @@ dart_code_metrics:
     - avoid-state-constructors
     - avoid-stateless-widget-initialized-fields
     - avoid-unnecessary-overrides-in-state
-    - avoid-unnecessary-setstate
+    # - avoid-unnecessary-setstate
     - avoid-unnecessary-stateful-widgets
     - avoid-wrapping-in-padding
     - check-for-equals-in-render-object-setters
