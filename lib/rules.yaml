@@ -3,7 +3,6 @@ linter:
     - always_declare_return_types
     - always_put_control_body_on_new_line
     - always_put_required_named_parameters_first
-    - always_require_non_null_named_parameters
     - always_use_package_imports
     - annotate_overrides
     - avoid_bool_literals_in_conditional_expressions
@@ -24,8 +23,6 @@ linter:
     - avoid_relative_lib_imports
     - avoid_renaming_method_parameters
     - avoid_return_types_on_setters
-    - avoid_returning_null
-    - avoid_returning_null_for_future
     - avoid_returning_null_for_void
     - avoid_returning_this
     - avoid_shadowing_type_parameters
@@ -43,6 +40,7 @@ linter:
     - cancel_subscriptions
     - cast_nullable_to_non_nullable
     - close_sinks
+    - collection_methods_unrelated_type
     - constant_identifier_names
     - control_flow_in_finally
     - curly_braces_in_flow_control_structures
@@ -58,12 +56,11 @@ linter:
     - flutter_style_todos
     - hash_and_equals
     - implementation_imports
-    - iterable_contains_unrelated_type
+    - implicit_call_tearoffs
     - join_return_with_assignment
     - leading_newlines_in_multiline_strings
     - library_names
     - library_prefixes
-    - list_remove_unrelated_type
     - literal_only_boolean_expressions
     - missing_whitespace_between_adjacent_strings
     - no_adjacent_strings_in_list
@@ -94,7 +91,6 @@ linter:
     - prefer_const_literals_to_create_immutables
     - prefer_constructors_over_static_methods
     - prefer_contains
-    - prefer_equal_for_default_values
     - prefer_final_fields
     - prefer_final_in_for_each
     - prefer_final_locals
@@ -160,6 +156,7 @@ linter:
     - use_rethrow_when_possible
     - use_setters_to_change_properties
     - use_string_buffers
+    - use_string_in_part_of_directives
     - use_test_throws_matchers
     - use_to_and_as_if_applicable
     - valid_regexps
@@ -169,11 +166,11 @@ linter:
     - conditional_uri_does_not_exist
     - use_build_context_synchronously
     - library_private_types_in_public_api
+    - sort_constructors_first
     # - discarded_futures
     # - use_key_in_widget_constructors  - turned off
     # - unnecessary_lambdas  - turned off
     # - unnecessary_final  - turned off
-    # - sort_constructors_first  - turned off
     # - slash_for_doc_comments
     # - secure_pubspec_urls
     # - public_member_api_docs
