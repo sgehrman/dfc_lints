@@ -212,10 +212,6 @@ analyzer:
 
 # https://dartcodemetrics.dev/docs/getting-started/installation
 dart_code_metrics:
-  anti-patterns:
-    - avoid-long-functions
-        max-length: 2048
-    - avoid-long-parameter-list
   metrics:
     cyclomatic-complexity: 20
     maximum-nesting-level: 5
@@ -270,6 +266,9 @@ dart_code_metrics:
     - avoid-negated-conditions
     - avoid-nested-conditional-expressions:
         acceptable-level: 2
+    - avoid-long-functions
+        max-length: 2048
+    - avoid-long-parameter-list
     - avoid-nested-futures
     - avoid-nested-records
     # - avoid-nested-streams-and-futures
