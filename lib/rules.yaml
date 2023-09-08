@@ -266,7 +266,7 @@ dart_code_metrics:
     - avoid-negated-conditions
     - avoid-nested-conditional-expressions:
         acceptable-level: 2
-    - avoid-long-functions
+    - avoid-long-functions:
         max-length: 2048
     - avoid-long-parameter-list
     - avoid-nested-futures
