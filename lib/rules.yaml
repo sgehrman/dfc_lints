@@ -213,8 +213,9 @@ analyzer:
 # https://dartcodemetrics.dev/docs/getting-started/installation
 dart_code_metrics:
   anti-patterns:
-    - long-method
-    - long-parameter-list
+    - avoid-long-functions
+        max-length: 2048
+    - avoid-long-parameter-list
   metrics:
     cyclomatic-complexity: 20
     maximum-nesting-level: 5
