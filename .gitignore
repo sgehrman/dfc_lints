@@ -3,6 +3,9 @@
 .packages
 .flutter-plugins-dependencies
 
+# Libraries should not include pubspec.lock, per https://dart.dev/guides/libraries/private-files#pubspeclock.
+/pubspec.lock
+
 # Conventional directory for build outputs
 build/
 
