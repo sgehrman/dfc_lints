@@ -1,5 +1,15 @@
 linter:
   rules:
+    - secure_pubspec_urls
+    - unintended_html_in_doc_comment
+    - type_literal_in_constant_pattern
+    - no_wildcard_variable_uses
+    - library_annotations
+    - dangling_library_doc_comments
+    - use_super_parameters
+    - unnecessary_to_list_in_spreads
+    - unnecessary_library_name
+    - invalid_runtime_check_with_js_interop_types
     - always_declare_return_types
     - always_put_control_body_on_new_line
     - always_put_required_named_parameters_first
@@ -162,17 +172,17 @@ linter:
     - valid_regexps
     - void_checks
     - use_decorated_box
+    - use_colored_box
     - sized_box_shrink_expand
     - conditional_uri_does_not_exist
-    # - use_build_context_synchronously
+    - use_build_context_synchronously
     - library_private_types_in_public_api
     - sort_constructors_first
+    # - slash_for_doc_comments
+    # - use_key_in_widget_constructors
     # - discarded_futures
-    # - use_key_in_widget_constructors  - turned off
     # - unnecessary_lambdas  - turned off
     # - unnecessary_final  - turned off
-    # - slash_for_doc_comments
-    # - secure_pubspec_urls
     # - public_member_api_docs
     # - prefer_relative_imports  - turned off
     # - prefer_if_elements_to_conditional_expressions  - turned off
