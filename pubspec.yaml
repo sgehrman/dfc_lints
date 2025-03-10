@@ -7,4 +7,4 @@ environment:
 
 dev_dependencies:
   dart_code_metrics:
-    git: https://github.com/rei-codes/dart-code-metrics
+    git: https://github.com/JonasWanke/dart-code-metrics
