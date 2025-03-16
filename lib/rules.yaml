@@ -179,11 +179,10 @@ linter:
     - sort_constructors_first
     - unsafe_variance
     - unnecessary_underscores
-    - unnecessary_ignore
     - unnecessary_async
-    - specify_nonobvious_property_types
+    # - specify_nonobvious_property_types
     - strict_top_level_inference
-    - omit_obvious_property_types
+    # - omit_obvious_property_types
     - annotate_redeclares
     - avoid_futureor_void
     - use_truncating_division
