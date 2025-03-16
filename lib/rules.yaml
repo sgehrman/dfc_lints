@@ -86,7 +86,6 @@ linter:
     - one_member_abstracts
     - only_throw_errors
     - overridden_fields
-    - package_api_docs
     - package_names
     - package_prefixed_library_names
     - parameter_assignments
@@ -178,6 +177,17 @@ linter:
     - use_build_context_synchronously
     - library_private_types_in_public_api
     - sort_constructors_first
+    - unsafe_variance
+    - unnecessary_underscores
+    - unnecessary_ignore
+    - unnecessary_async
+    - specify_nonobvious_property_types
+    - strict_top_level_inference
+    - omit_obvious_property_types
+    - annotate_redeclares
+    - avoid_futureor_void
+    - use_truncating_division
+
     # - slash_for_doc_comments
     # - use_key_in_widget_constructors
     # - discarded_futures
@@ -289,7 +299,7 @@ dart_code_metrics:
     - avoid-one-field-records
     # - avoid-passing-async-when-sync-expected
     - avoid-positional-record-field-access
-    - avoid-redundant-async
+    # - avoid-redundant-async # assuming unnecessary_async lint now does this
     - avoid-redundant-else
     # - avoid-redundant-positional-field-name
     - avoid-redundant-pragma-inline

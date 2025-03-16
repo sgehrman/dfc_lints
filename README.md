@@ -1,9 +1,9 @@
 # Rules found here
 
 https://dart.dev/tools/linter-rules/all
+https://github.com/flutter/packages/blob/main/packages/flutter_lints/lib/flutter.yaml
 
 ```
-
 linter:
   rules:
     - always_declare_return_types
@@ -115,10 +115,10 @@ linter:
     - null_closures
     - omit_local_variable_types
     - omit_obvious_local_variable_types
+    - omit_obvious_property_types
     - one_member_abstracts
     - only_throw_errors
     - overridden_fields
-    - package_api_docs
     - package_names
     - package_prefixed_library_names
     - parameter_assignments
@@ -174,6 +174,8 @@ linter:
     - sort_pub_dependencies
     - sort_unnamed_constructors_first
     - specify_nonobvious_local_variable_types
+    - specify_nonobvious_property_types
+    - strict_top_level_inference
     - test_types_in_equals
     - throw_in_finally
     - tighten_type_of_initializing_formals
@@ -182,6 +184,7 @@ linter:
     - type_literal_in_constant_pattern
     - unawaited_futures
     - unintended_html_in_doc_comment
+    - unnecessary_async
     - unnecessary_await_in_return
     - unnecessary_brace_in_string_interps
     - unnecessary_breaks
@@ -189,6 +192,7 @@ linter:
     - unnecessary_constructor_name
     - unnecessary_final
     - unnecessary_getters_setters
+    - unnecessary_ignore
     - unnecessary_lambdas
     - unnecessary_late
     - unnecessary_library_directive
@@ -207,8 +211,10 @@ linter:
     - unnecessary_string_interpolations
     - unnecessary_this
     - unnecessary_to_list_in_spreads
+    - unnecessary_underscores
     - unreachable_from_main
     - unrelated_type_equality_checks
+    - unsafe_variance
     - use_build_context_synchronously
     - use_colored_box
     - use_decorated_box
@@ -231,5 +237,19 @@ linter:
     - use_truncating_division
     - valid_regexps
     - void_checks
+```
 
+```
+linter:
+  rules:
+    - avoid_print
+    - avoid_unnecessary_containers
+    - avoid_web_libraries_in_flutter
+    - no_logic_in_create_state
+    - prefer_const_constructors_in_immutables
+    - sized_box_for_whitespace
+    - sort_child_properties_last
+    - use_build_context_synchronously
+    - use_full_hex_values_for_flutter_colors
+    - use_key_in_widget_constructors
 ```
