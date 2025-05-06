@@ -186,6 +186,9 @@ linter:
     - annotate_redeclares
     - avoid_futureor_void
     - use_truncating_division
+    - avoid_types_on_closure_parameters
+    - omit_local_variable_types
+    - unnecessary_null_aware_operator_on_extension_on_nullable
 
     # - slash_for_doc_comments
     # - use_key_in_widget_constructors
@@ -199,14 +202,12 @@ linter:
     # - prefer_final_parameters   - turned off
     # - prefer_expression_function_bodies
     # - prefer_double_quotes   - turned off
-    # - omit_local_variable_types
     # - no_default_cases  - turned off
     # - lines_longer_than_80_chars  - turned off
     # - comment_references
     # - do_not_use_environment  - turned off
     # - diagnostic_describe_all_properties
     # - cascade_invocations  - turned off
-    # - avoid_types_on_closure_parameters
     # - avoid_setters_without_getters  - turned off
     # - avoid_print  - turned off
     # - avoid_final_parameters
